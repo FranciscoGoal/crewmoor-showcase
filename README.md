@@ -1,67 +1,99 @@
 <div align="center">
 
+<a href="https://crewmoor.com/">
+  <img src="https://crewmoor.com/assets/crewmoor-logo.png" alt="Crewmoor official logo" width="88" />
+</a>
+
 # CREWMOOR
 
-### A clearer way to coordinate teams, tasks and day-to-day operations.
+### Your team. Their work. All connected.
 
-**Product showcase · In active development**
+**A clearer way to coordinate people, tasks, progress, and conversations.**
 
-[Website](https://www.crewmoor.com/) · [Interactive prototype](https://demo.crewmoor.com/) · [Contact](https://contactme.crewmoor.com/)
+[![Website](https://img.shields.io/badge/WEBSITE-crewmoor.com-082E3D?style=for-the-badge)](https://crewmoor.com/)
+[![Interactive Demo](https://img.shields.io/badge/EXPLORE-Interactive_Demo-128E91?style=for-the-badge)](https://demo.crewmoor.com/)
+![Status](https://img.shields.io/badge/STATUS-In_Development-627D78?style=for-the-badge)
 
 </div>
 
 ---
 
-## Overview
+## Built for teams that need clarity
 
-Crewmoor is a software product in development, designed to bring team coordination, task management and operational information into one connected workspace.
+Work moves fast. Information often doesn't.
 
-The project explores how a clear, accessible interface can help teams keep track of responsibilities, communicate and turn daily activity into useful information.
+Crewmoor is an evolving team coordination platform designed to connect the work that needs to be done with the people doing it — making it easier to follow progress, share updates, and stay aligned.
 
-> **Development status:** Crewmoor is an ongoing project. The interactive experience linked above is a **prototype**, not a production application. Features and interfaces may change.
+> **One connected workspace. Less fragmentation. More clarity.**
+
+## Explore the concept
+
+Visit the [**interactive Crewmoor demo**](https://demo.crewmoor.com/) for a preview of the product experience.
+
+**Note:** The demo is a prototype for exploration. It is not a production application, and the project remains under active development.
 
 ## Product areas
 
-| Area | What it is designed to support |
-| --- | --- |
-| **Workspaces & teams** | Organize collaboration around teams and shared work. |
-| **Tasks & priorities** | Structure work, track status and keep responsibilities visible. |
-| **Calendar & deadlines** | Bring upcoming activities and key dates into view. |
-| **Team communication** | Keep conversations closer to the work they relate to. |
-| **Activity overview** | Make recent changes and progress easier to follow. |
-| **Reports & exports** | Present operational information and explore Excel/CSV export workflows. |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>✓ Task management</h3>
+      Organize work, track statuses, and keep responsibilities visible.
+    </td>
+    <td width="50%" valign="top">
+      <h3>◉ Team collaboration</h3>
+      Bring people and shared context into the same workspace.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>▦ Reports & exports</h3>
+      Explore reporting workflows, including Excel and CSV exports.
+    </td>
+    <td width="50%" valign="top">
+      <h3>▣ Calendars & deadlines</h3>
+      See what is coming up and make priorities easier to follow.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>◌ Team conversations</h3>
+      Keep communication closer to the work it relates to.
+    </td>
+    <td width="50%" valign="top">
+      <h3>↗ Progress visibility</h3>
+      Turn scattered updates into a clearer view of ongoing work.
+    </td>
+  </tr>
+</table>
 
-These areas describe the product direction and prototype experience, **not a claim that every feature is production-ready**.
+<sub>These are product areas represented in the concept and prototype; they do not imply that all features are production-ready.</sub>
 
-## Explore Crewmoor
+## Product direction
 
-**[Visit the website](https://www.crewmoor.com/)** for the product introduction and **[explore the interactive prototype](https://demo.crewmoor.com/)** to see the current interface concept.
+Crewmoor is being designed around three principles:
 
-The prototype uses illustrative workflows and should not be treated as a live customer workspace.
+**Clarity first** · Information should be easy to find and understand.
 
-## Project approach
+**Connected by design** · Tasks, teams, updates, and conversations belong together.
 
-Crewmoor is being developed with an emphasis on:
+**Simple to use** · Powerful coordination should not require a complicated interface.
 
-- **Clarity:** information should be easy to locate and understand.
-- **Consistency:** connected workflows should feel like one product.
-- **Practicality:** features should solve real coordination problems.
-- **Usability:** an intuitive experience across desktop and mobile screens.
+## Project status
 
-Read more in [Product overview](docs/PRODUCT_OVERVIEW.md) and [Development roadmap](docs/ROADMAP.md).
+**Currently in development.** The public interactive demo showcases the product direction. Features, interface details, and implementation may evolve as the project progresses.
 
-## Repository scope
+This repository serves as a public introduction to Crewmoor. It should not be interpreted as a complete, production-ready software release.
 
-This is the **public-facing showcase repository** for Crewmoor. It contains product descriptions and documentation only.
+## Discover Crewmoor
 
-**The application's proprietary source code, architecture, deployment configuration, credentials and internal development materials are not included.** This repository is not an open-source distribution of the application.
-
-## Creator
-
-**Francisco González Álvarez** · Software Developer
-
-[GitHub](https://github.com/FranciscoGoal) · [LinkedIn](https://www.linkedin.com/in/francisco-augusto-gonz%C3%A1lez-%C3%A1lvarez-0666893b8) · [Website](https://www.crewmoor.com/)
+- **Official website:** https://crewmoor.com/
+- **Interactive prototype:** https://demo.crewmoor.com/
 
 ---
 
-<div align="center"><sub>© 2026 Crewmoor. All rights reserved. · Product under active development.</sub></div>
+<div align="center">
+  <strong>CREWMOOR</strong><br/>
+  <sub>Bringing people and work closer together.</sub><br/><br/>
+  <a href="https://crewmoor.com/">Explore the project</a>
+</div>

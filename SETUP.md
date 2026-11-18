@@ -1,21 +1,10 @@
-# Publishing this showcase on GitHub
+# GitHub repository setup
 
-1. Create a **public** repository named `crewmoor` on GitHub under `FranciscoGoal` (if the name is available).
-2. Set the description to:
-   `Crewmoor — a team coordination and operations workspace. Product showcase · In development.`
-3. Set the website to `https://www.crewmoor.com/`.
-4. Add topics such as `crewmoor`, `saas`, `team-collaboration`, `task-management`, `product-development`, `work-management`.
-5. Upload the files in this directory, keeping their folder structure intact.
-6. Pin the repo from your GitHub profile's **Customize your pins** menu.
-7. Optionally add the original logo to `assets/` and reference it in `README.md`. Never substitute a generated version.
-8. Add a social preview in repository settings using the authentic logo.
-
-## Do not publish
-
-- Private application source code, secrets, keys or tokens.
-- Customer data, internal screenshots, credentials or hosting configuration.
-- Unverified claims about production availability or completed functionality.
-
-## Licensing
-
-No open-source license is included: this is a public product presentation, **not an invitation to reuse proprietary product assets or code**.
+1. Replace the repository root `README.md` with the supplied file.
+2. The logo image in the README references the original file URL used by the Crewmoor website: `https://crewmoor.com/assets/crewmoor-logo.png`. Verify that this URL loads publicly in your browser. If it does not, copy the *unaltered original* asset from your website project into `assets/crewmoor-logo.png` in the GitHub repo and update the README image source to `assets/crewmoor-logo.png`.
+3. In GitHub → repository → About, set:
+   - Description: `A connected workspace for teams, tasks, progress, and communication. In development.`
+   - Website: `https://crewmoor.com/`
+   - Topics: `crewmoor`, `team-collaboration`, `task-management`, `productivity`, `saas`, `work-management`
+4. Pin the repository on your profile if relevant.
+5. Only add screenshots once they represent the current demo faithfully. Avoid fictional backend specs, maturity claims or fabricated statistics.
