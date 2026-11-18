@@ -1,99 +1,103 @@
 <div align="center">
 
-<a href="https://crewmoor.com/">
-  <img src="https://crewmoor.com/assets/crewmoor-logo.png" alt="Crewmoor official logo" width="88" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/brand/crewmoor-logo-white.svg" />
+  <img src="assets/brand/crewmoor-logo-color.svg" alt="Crewmoor" width="260" />
+</picture>
 
-# CREWMOOR
+<p><strong>Assign the work, follow every step and keep the conversation next to the task.</strong></p>
 
-### Your team. Their work. All connected.
+<p>
+  <a href="https://www.crewmoor.com/">Website</a> ·
+  <a href="https://demo.crewmoor.com/">Interactive prototype</a> ·
+  <a href="https://contactme.crewmoor.com/">Contact</a>
+</p>
 
-**A clearer way to coordinate people, tasks, progress, and conversations.**
-
-[![Website](https://img.shields.io/badge/WEBSITE-crewmoor.com-082E3D?style=for-the-badge)](https://crewmoor.com/)
-[![Interactive Demo](https://img.shields.io/badge/EXPLORE-Interactive_Demo-128E91?style=for-the-badge)](https://demo.crewmoor.com/)
-![Status](https://img.shields.io/badge/STATUS-In_Development-627D78?style=for-the-badge)
+<sub>Product showcase · In development</sub>
 
 </div>
 
 ---
 
-## Built for teams that need clarity
+## Overview
 
-Work moves fast. Information often doesn't.
+Crewmoor is a team coordination and operations workspace that I am designing and building. It brings task assignment, progress tracking, team communication and reporting into one place, so coordinators and the people doing the work see the same up-to-date picture.
 
-Crewmoor is an evolving team coordination platform designed to connect the work that needs to be done with the people doing it — making it easier to follow progress, share updates, and stay aligned.
+Work is often split across phone calls, chat groups, spreadsheets and paper notes. Crewmoor aims to make it clear who is doing what, by when, what is blocked and what has already been done.
 
-> **One connected workspace. Less fragmentation. More clarity.**
+> [!IMPORTANT]
+> Crewmoor is **under development** and is **not a commercially available service**. The [interactive prototype](https://demo.crewmoor.com/) runs in the browser on sample data. It is not connected to a production backend, and nothing you do in it is saved.
 
-## Explore the concept
+## Screenshots
 
-Visit the [**interactive Crewmoor demo**](https://demo.crewmoor.com/) for a preview of the product experience.
-
-**Note:** The demo is a prototype for exploration. It is not a production application, and the project remains under active development.
-
-## Product areas
+These screenshots are from the interactive prototype and show sample data. The interface language is Spanish.
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>✓ Task management</h3>
-      Organize work, track statuses, and keep responsibilities visible.
-    </td>
-    <td width="50%" valign="top">
-      <h3>◉ Team collaboration</h3>
-      Bring people and shared context into the same workspace.
-    </td>
+    <td width="50%"><img src="assets/screenshots/operations-dashboard.webp" alt="Operations dashboard: task counts, completion rate, tasks by status, progress by assignee and a recent activity timeline" /></td>
+    <td width="50%"><img src="assets/screenshots/task-tracking.webp" alt="Task tracking view: assigned tasks with assignee, status, checklist progress, deadline and chat count" /></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3>▦ Reports & exports</h3>
-      Explore reporting workflows, including Excel and CSV exports.
-    </td>
-    <td width="50%" valign="top">
-      <h3>▣ Calendars & deadlines</h3>
-      See what is coming up and make priorities easier to follow.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>◌ Team conversations</h3>
-      Keep communication closer to the work it relates to.
-    </td>
-    <td width="50%" valign="top">
-      <h3>↗ Progress visibility</h3>
-      Turn scattered updates into a clearer view of ongoing work.
-    </td>
+    <td><sub><strong>Operations dashboard:</strong> status breakdown, progress by assignee and recent activity.</sub></td>
+    <td><sub><strong>Task tracking:</strong> assignee, status, checklist progress and deadlines at a glance.</sub></td>
   </tr>
 </table>
 
-<sub>These are product areas represented in the concept and prototype; they do not imply that all features are production-ready.</sub>
+<img src="assets/screenshots/task-detail-chat.webp" alt="Task detail: assignment information, step-by-step checklist with timestamps and a task-specific chat with file attachments" width="100%" />
+<p align="center"><sub><strong>Task detail:</strong> checklist steps with who completed them and when, plus a chat for that task.</sub></p>
 
-## Product direction
+## Core functionality
 
-Crewmoor is being designed around three principles:
+Every area below can be explored in the prototype. None of them is available yet as a production feature.
 
-**Clarity first** · Information should be easy to find and understand.
+| Area | What it covers |
+| --- | --- |
+| **Teams and workspaces** | Organise people into teams and give each member a clear set of responsibilities. |
+| **Task assignment** | Create tasks with an assignee, a location, a deadline and a step-by-step checklist. |
+| **Operations dashboard** | Task counts, completion rate, tasks by status and progress per assignee. |
+| **Activity tracking** | A timeline of assignments, completed steps and blocked tasks. |
+| **Calendar and deadlines** | Upcoming work and due dates in a calendar view. |
+| **Team communication** | A chat for each task, so conversations stay attached to the work they concern. |
+| **Reports and exports** | Task reports with PDF, Excel and CSV export options. |
 
-**Connected by design** · Tasks, teams, updates, and conversations belong together.
+## Development status
 
-**Simple to use** · Powerful coordination should not require a complicated interface.
+| Component | Status |
+| --- | --- |
+| Product concept and interface design | Explored through the interactive prototype |
+| [Interactive prototype](https://demo.crewmoor.com/) | Public, browser-only, uses sample data |
+| [Website](https://www.crewmoor.com/) | Public product introduction (English and Spanish) |
+| Backend application | Early development in Java and Spring Boot (private repository) |
+| Production service | Not available |
 
-## Project status
+## Roadmap
 
-**Currently in development.** The public interactive demo showcases the product direction. Features, interface details, and implementation may evolve as the project progresses.
+The roadmap shows direction, not release dates. Items may change, be postponed or be dropped as the product develops.
 
-This repository serves as a public introduction to Crewmoor. It should not be interpreted as a complete, production-ready software release.
+**In progress**
 
-## Discover Crewmoor
+- Backend foundation: task domain model, authentication and the messaging infrastructure for real-time updates.
+- Refining the prototype's navigation, consistency and layouts on mobile and desktop.
 
-- **Official website:** https://crewmoor.com/
-- **Interactive prototype:** https://demo.crewmoor.com/
+**Planned**
 
----
+- Connecting the interface to the backend, with persistent storage.
+- Real-time task chat and notifications backed by the server.
+- Generating reports and exports from real workspace data.
+- Gathering feedback from people who try the prototype.
 
-<div align="center">
-  <strong>CREWMOOR</strong><br/>
-  <sub>Bringing people and work closer together.</sub><br/><br/>
-  <a href="https://crewmoor.com/">Explore the project</a>
-</div>
+More detail: [Product overview](docs/PRODUCT_OVERVIEW.md) · [Roadmap](docs/ROADMAP.md)
+
+## About this repository
+
+This is the **public showcase** for Crewmoor. It contains the product description, documentation, official brand assets and prototype screenshots.
+
+The application's source code, deployment configuration, credentials and internal materials are **not** included, and this repository is not an open-source release. The Crewmoor name and logo are original brand assets. Please do not reuse or modify them.
+
+## Author
+
+Crewmoor is designed and developed by **Francisco González Álvarez**, a software developer working mainly in Java and Spring Boot.
+
+[GitHub](https://github.com/FranciscoGoal) · [LinkedIn](https://www.linkedin.com/in/francisco-augusto-gonz%C3%A1lez-%C3%A1lvarez-0666893b8) · [crewmoor.com](https://www.crewmoor.com/)
+
+<sub>© 2026 Crewmoor. All rights reserved.</sub>

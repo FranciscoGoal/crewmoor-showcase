@@ -1,26 +1,30 @@
-# Crewmoor · Product overview
+# Crewmoor: product overview
+
+## The problem
+
+Teams that coordinate operational work, such as maintenance jobs, inspections or shift handovers, often spread it across phone calls, chat groups, spreadsheets and paper notes. Coordinators lose track of progress, and the people doing the work lose track of context.
 
 ## The idea
 
-Teams often spread tasks, conversations, calendars and reporting across disconnected tools. Crewmoor explores a more integrated experience, with core coordination activities visible within one workspace.
+Crewmoor puts the core coordination activities in one workspace:
 
-## Intended workflows
-
-1. **Organize:** establish teams and a shared view of responsibilities.
-2. **Coordinate:** track tasks, priorities and upcoming deadlines.
-3. **Communicate:** keep project and team communication accessible.
-4. **Review:** understand recent activity, progress and operational information.
-5. **Share:** explore structured reporting and Excel/CSV export workflows.
+1. **Organise.** Set up teams and a shared view of who is responsible for what.
+2. **Assign.** Create tasks with an assignee, a deadline, a location and a checklist of steps.
+3. **Follow.** Track each step as it is completed, and see which tasks are in progress, blocked or waiting for validation.
+4. **Communicate.** Discuss each task in its own chat, with attachments, instead of in a separate group.
+5. **Report.** Summarise activity and export it as PDF, Excel or CSV.
 
 ## Design principles
 
-- Easy to understand at a glance.
-- Visually consistent, with connected navigation and layouts.
-- Usable on both mobile and desktop.
-- Focused on practical team workflows rather than decorative complexity.
+- **Easy to read at a glance.** Status, deadlines and blockers are visible without opening each task.
+- **Consistent.** Every area shares the same navigation, layout and vocabulary.
+- **Works on desktop and mobile.** Coordinators usually work at a desk, while the people doing the work are often on their feet.
+- **Practical.** Features exist to remove a coordination problem, not to add decoration.
 
-## Important note
+## Current state
 
-Crewmoor is under development. The interactive demo is a prototype, and examples shown in it are illustrative. Nothing on this page represents an availability, deployment or feature-completion guarantee.
+All of the workflows above can be explored in the [interactive prototype](https://demo.crewmoor.com/). It runs in the browser on sample data and is not connected to a backend.
+
+The backend is in early development. Nothing on this page guarantees availability, a deployment date or the completion of any feature.
 
 [Back to repository](../README.md)

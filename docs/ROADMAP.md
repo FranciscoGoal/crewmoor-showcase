@@ -1,16 +1,17 @@
-# Development roadmap
+# Crewmoor: development roadmap
 
-Crewmoor is an evolving product. This document outlines areas of ongoing exploration, not fixed release commitments.
+This roadmap describes direction, not release commitments. Items may be revised, postponed or removed.
 
-| Area | Focus |
-| --- | --- |
-| Product experience | Improve navigation, consistency and responsive layouts. |
-| Team coordination | Refine workspaces, responsibilities and task workflows. |
-| Communication | Explore integrated, context-aware team conversations. |
-| Planning | Develop intuitive calendars and deadline views. |
-| Reporting | Refine information summaries and Excel/CSV export experiences. |
-| Product validation | Gather feedback from people reviewing the prototype. |
+| Area | Status | Focus |
+| --- | --- | --- |
+| Interface design | In the prototype | Teams, tasks and checklists, dashboard, activity, calendar, task chat and reports |
+| Product experience | In progress | Navigation, consistency and responsive layouts |
+| Backend foundation | In progress | Task domain model, authentication and real-time messaging infrastructure |
+| Persistence and integration | Planned | Connect the interface to the backend with persistent storage |
+| Real-time communication | Planned | Server-backed task chat and notifications |
+| Reporting | Planned | Generate PDF, Excel and CSV exports from real workspace data |
+| Validation | Planned | Collect structured feedback from people who try the prototype |
 
-No public release timeline is announced here. Features may be revised, postponed or removed as the project develops.
+There is no public release timeline.
 
 [Back to repository](../README.md)
