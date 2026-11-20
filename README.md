@@ -5,7 +5,7 @@
   <img src="assets/brand/crewmoor-logo-color.svg" alt="Crewmoor" width="260" />
 </picture>
 
-<p><strong>Assign the work, follow every step and keep the conversation next to the task.</strong></p>
+<p><strong>Operations, maintenance and asset management</strong></p>
 
 <p>
   <a href="https://www.crewmoor.com/">Website</a> ·
@@ -21,9 +21,9 @@
 
 ## Overview
 
-Crewmoor is a team coordination and operations workspace that I am designing and building. It brings task assignment, progress tracking, team communication and reporting into one place, so coordinators and the people doing the work see the same up-to-date picture.
+Crewmoor is a platform in development for companies that operate and maintain physical assets. I’m designing it to connect work reported in the field, maintenance tasks and the history of each piece of equipment.
 
-Work is often split across phone calls, chat groups, spreadsheets and paper notes. Crewmoor aims to make it clear who is doing what, by when, what is blocked and what has already been done.
+When a technician finds a fault during a round, the next shift needs to know which asset was affected, what was checked and what still needs attention. Crewmoor already supports real-time chat within tasks. The goal is to make those decisions part of the asset’s maintenance history, so teams can refer back to them when the same fault returns.
 
 > [!IMPORTANT]
 > Crewmoor is **under development** and is **not a commercially available service**. The [interactive prototype](https://demo.crewmoor.com/) runs in the browser on sample data. It is not connected to a production backend, and nothing you do in it is saved.
@@ -82,7 +82,7 @@ The roadmap shows direction, not release dates. Items may change, be postponed o
 **Planned**
 
 - Connecting the interface to the backend, with persistent storage.
-- Real-time task chat and notifications backed by the server.
+- Connecting asset records, reported issues and maintenance tasks so teams can trace the history of an intervention.
 - Generating reports and exports from real workspace data.
 - Gathering feedback from people who try the prototype.
 
@@ -98,6 +98,6 @@ The application's source code, deployment configuration, credentials and interna
 
 Crewmoor is designed and developed by **Francisco González Álvarez**, a software developer working mainly in Java and Spring Boot.
 
-[GitHub](https://github.com/FranciscoGoal) · [LinkedIn](https://www.linkedin.com/in/francisco-augusto-gonz%C3%A1lez-%C3%A1lvarez-0666893b8) · [crewmoor.com](https://www.crewmoor.com/)
+[GitHub](https://github.com/FranciscoGoal) · [LinkedIn](https://www.linkedin.com/in/francisco-galvarez) · [crewmoor.com](https://www.crewmoor.com/)
 
 <sub>© 2026 Crewmoor. All rights reserved.</sub>
